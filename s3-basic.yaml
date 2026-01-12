@@ -1,0 +1,7 @@
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-cf-s3-demo-bucket-123
+      VersioningConfiguration:
+        Status: Enabled
